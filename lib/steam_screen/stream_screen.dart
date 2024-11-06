@@ -50,6 +50,7 @@ class _CounterAppState extends State<CounterApp> {
               );
             },
           ),
+          
           Expanded(
             child: ListView.builder(
               itemCount: _notificationStream.history.length,
